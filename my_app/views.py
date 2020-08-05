@@ -20,7 +20,7 @@ def home(request):
 
 def new_search(request):
     search = request.POST.get('search')
-    #Search.objects.create(search=search)
+    Search.objects.create(search=search)
 
     youtube = build(
         YOUTUBE_API_SERVICE_NAME,
