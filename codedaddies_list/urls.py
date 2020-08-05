@@ -30,6 +30,6 @@ urlpatterns = [
 # django-admin startproject codedaddies_list .
 # python manage.py startapp my_app
 
-
+# kazu25,andrea258078
 
 #gitignoreを作成(Jetbrainsとpythonを選択)
