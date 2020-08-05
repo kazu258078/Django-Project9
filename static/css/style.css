@@ -1,0 +1,21 @@
+.card {
+    height: 400px; /* Your height here */
+    overflow: hidden;
+}
+
+.card-image {
+    /*height: 250px;*/ /* Your height here */
+    overflow: hidden;
+}
+h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 7px 0 10px;
+}
+
+h3 a {
+    line-height:1.2;
+}
+span{
+    display: block;
+}

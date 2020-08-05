@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 style="text-align: center">{{ search | title }}</h2>
+<div class="row">
+        {% for post in posts %}
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="{{post.0}}"><img src="{{post.1}}" alt=""></a>
+                    </div>
+                    <div class="card-content">
+                        <h3><a href="{{post.0}}">{{post.2}}</a></h3>
+                        <p>Channel Name: {{post.4}}</p>
+<!--                        <p><span>Description:</span> {{post.3}}</p>-->
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content %}
